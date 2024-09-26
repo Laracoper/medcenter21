@@ -1,0 +1,301 @@
+/*--------------------------------[Custom Style CSS File]--------------------------------------
+
+    Project     : hospital One Page
+    Version     : 1.0
+    Author      : omartobgy
+
+-------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------[CSS File Content]----------------------------------------
+    
+    => Body
+    => Classes
+    => Page Loader
+    => Scroll Top Button
+    => Navbar
+    => padding for all sections pad
+    => Header  
+    => colored for all span color in padge
+    => Heading for all h2 in pagde 
+    => bar class for all div has class bar in padge  
+    => info class for all div have this class in padge
+    => lead class for all p in padge
+    => Services
+    => clinc
+    => Doctor
+    => About
+    => Contact
+
+-------------------------------------------------------------------------------------------*/
+
+/*------[start import fonts]------*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700,300);
+/*------[end import fonts]------*/
+
+/*------[start body]------*/
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color:#f1f1f1  
+}
+
+/*------[end body]------*/
+
+/*------[start page loader]------*/
+
+.loader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #FFF
+}
+
+.loader .loading-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    background: url(../image/Heart.gif) no-repeat center center
+}
+/*------[page loader end]------*/
+
+/*------[start page scroll top button]------*/
+.scroll-top {
+    display: none;
+    width: 45px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 999;
+    border: 1px solid #FFF
+}
+/*------[end page scroll top button]------*/
+
+/*------[start navbar]------*/
+.navbar-default {
+    background-color: #FFF;
+    box-shadow: 0px 1px 10px #292929;
+    padding-top: 10px;
+    padding-bottom: 10px 
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold
+}
+
+/*------[end navbar]------*/
+
+
+/*------[start header section]------*/
+#header {
+    color: #FFF;
+    margin-top: 70px;
+    height: calc(100vh - 70px);
+    background: url(../image/nurse-2141808_1920.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover
+}
+
+#header .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:100%; 
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+#header .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+#header h1 {
+    font-size: 48px;
+    font-weight: bold
+}
+
+#header h2 {
+    font-size: 16px;
+    margin-bottom: 25px
+}
+/*------[end header section]------*/
+
+/*------[this class in all sections]------*/
+
+/*------[colored class for all span in padge]------*/
+.colored{
+    color: #14c9e3
+}
+
+/*------[colored class end]------*/
+
+/*------[button class for all span in padge]------*/
+.button{
+    background-color: #14c9e3;
+    border-style: none;
+    padding: 10px;
+    font-size: 15px;
+    color:#fff 
+}
+
+/*------[button class end]------*/
+
+/*------[section padding for all sections in padge]------*/
+.padding{
+    padding-top: 70px;
+    padding-bottom: 40px
+}
+
+/*------[all div-heading in padge]------*/
+.div-heading{
+    text-align: center;
+    padding-bottom: 40px 
+}
+/*------[all div-heading in padge end]------*/
+
+/*------[all h2 in padge]------*/
+.heading {
+    color: #000;
+    font-weight: bold;
+    font-size: 32px;
+}
+/*------[all h2 in padge end]------*/
+
+/*------[info class in padge]------*/
+.info {
+     margin-bottom: 30px;
+    position: relative;
+    background-color: #fbfbfb;
+    overflow: hidden;
+    text-align: center;
+    height: inherit;
+    -webkit-box-shadow: 7px 9px 10px #c9c9c9,-4px -4px 10px #c9c9c9;
+    -moz-box-shadow: 7px 9px 10px #c9c9c9,-4px -4px 10px #c9c9c9; 
+    -o-box-shadow: 7px 9px 10px #c9c9c9,-4px -4px 10px #c9c9c9;
+    -ms-box-shadow: 7px 9px 10px #c9c9c9,-4px -4px 10px #c9c9c9;
+    box-shadow: 7px 9px 10px #c9c9c9,-4px -4px 10px #c9c9c9 
+}
+/*------[info class in padge end]------*/
+
+/*------[paragraph class in padge end]------*/
+.lead {
+    color: #777;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+/*------[paragraph class in padge end]------*/
+
+/*------[bar class in section service and about-as]------*/
+.bar {
+    padding:5px 0;
+    background: #14c9e3  
+} 
+
+.bar img{
+    max-width: 30px    
+}
+/*------[bar class end]------*/
+
+/*------[h3 class in all padge]------*/
+
+.hedding-h3{
+    font-weight: bold;
+    font-size: 20px  
+} 
+/*------[h3 class end]------*/
+
+/*------[this class in all sections end]------*/
+
+/*------[section work]------*/
+#clinics .button {
+    width: 100%
+}
+/*------[section work end]------*/
+
+/*------[section about doctors]------*/
+#about-doctors .info-two {
+    margin-bottom: 15px; 
+    position: relative;
+    background-color: #fbfbfb;
+    overflow: hidden;
+    text-align: center;
+    height: inherit;
+    -webkit-box-shadow: 2px 5px 11px #c9c9c9;
+    -moz-box-shadow: 2px 5px 11px #c9c9c9; 
+    -o-box-shadow: 2px 5px 11px #c9c9c9;
+    -ms-box-shadow: 2px 5px 11px #c9c9c9;
+    box-shadow: 2px 5px 11px #c9c9c9
+
+}
+
+#about-doctors .owl-carousel .owl-dots{
+
+    margin-bottom: 30px 
+}
+/*------[section about doctors end]------*/
+
+/*------[section health]------*/
+#health {
+    color: #FFF;
+    margin-top: 20px;
+    height: calc(50vh - 20px);
+    background: url(../image/treatment-of-skin-2416946_1920.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative 
+}
+
+#health .overlay-two {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+#health .container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-59%);
+    -o-transform: translateY(-59%);
+    -moz-transform: translateY(-59%);
+    transform: translateY(-59%)
+}
+
+#health h2 {
+    font-size:42px;
+    font-weight:bold;  
+}
+/*------[section health doctors end]------*/
+
+/*------[start contact section]------*/
+#contact .mail {
+    height: 40px;
+    margin-bottom: 15px
+}
+
+#contact .message {
+    height: 250px;
+    margin-bottom: 15px;
+    resize: vertical
+}
+
+#contact .social-links {
+    margin: 20px 0
+}
+/*------[end contact section]------*/
